@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.glitch.global/7ac8ae81-ce57-4e13-bf42-8909579d05db/favicon-32x32.png?v=1713559709773">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.glitch.global/7ac8ae81-ce57-4e13-bf42-8909579d05db/favicon-16x16.png?v=1713559704322">
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <style>
+      #world {
+        display:none;
+      }
+      body {
+        background-color: #000000;
+      }  
+      .wrapper {
+        min-height: 87vh;
+        display: grid;
+        place-items: center;
+  
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      } 
+      a {
+        color:#ffffff;
+      }
+      a:visited {
+        color:#ffffff;
+      }
+    </style>
+
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>A door becomes a seed</title>
+
+    <!-- The website JavaScript file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@thumbmarkjs/thumbmarkjs/dist/thumbmark.umd.js"></script>
+    <script src="/script.js" defer></script>
+    <script data-goatcounter="https://adoorbecomesaseed.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content" role="main">
+        <img id="spinner" src="https://cdn.glitch.global/7ac8ae81-ce57-4e13-bf42-8909579d05db/spinner.gif?v=1712517180978" />
+        <img id="picture" />
+        <a id="what" href="./colophon.html" style="visibility: hidden">What is all this?</a>   
+      </div>
+    </div>
+  </body>
+</html>
